@@ -11,11 +11,11 @@ circle.small{
     fill:white;
 }
 
-.contained circle {
+.contained:first-of-type circle {
   fill: #573d29;
 }
 
-.contained:last-of-type*{
+.contained:last-of-type circle, rect{
     fill: #c0c0c0;
     stroke:none;
 }
